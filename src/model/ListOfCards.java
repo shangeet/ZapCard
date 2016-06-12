@@ -7,7 +7,7 @@ public class ListOfCards{
 	int size = 1;
 	private Card cat[] = new Card[size];
 	
-	private void Add(Card c){
+	private void add(Card c){
 		size++;
 		cat[size] = c;
 	}
