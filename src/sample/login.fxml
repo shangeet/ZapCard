@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.*?>
+
+<Pane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="114.0" fitWidth="173.0" layoutX="95.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Login.gif" />
+         </image>
+      </ImageView>
+      <Label layoutX="82.0" layoutY="170.0" text="Username" />
+      <Label layoutX="84.0" layoutY="213.0" text="Password" />
+      <Button layoutX="203.0" layoutY="293.0" mnemonicParsing="false" styleClass="bevel-grey" stylesheets="buttons.css" text="Back" />
+      <Button layoutX="252.0" layoutY="293.0" mnemonicParsing="false" styleClass="bevel-grey" stylesheets="buttons.css" text="Login" />
+      <PasswordField layoutX="149.0" layoutY="209.0" />
+      <TextField layoutX="149.0" layoutY="166.0" />
+   </children>
+    <stylesheets>
+        <URL value="@../sample/buttons.css" />
+    </stylesheets>
+</Pane>
